@@ -11,7 +11,7 @@ import (
 )
 
 func main() {
-	file, err := os.Open("input.txt")
+	file, err := os.Open("../input.txt")
 	if err != nil {
 		log.Panicf("error on get file content: %s", err)
 	}
